@@ -33,6 +33,7 @@ dependencies {
 	// Management
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.shell:spring-shell-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	
 	// web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -44,11 +45,8 @@ dependencies {
 
 	// testovani
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation 'org.spockframework:spock-core:2.3-groovy-3.0'
-	testImplementation 'org.codehaus.groovy:groovy-all:3.0.14'
-
-	//moje
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
+	testImplementation 'org.codehaus.groovy:groovy-all:3.0.8'
 }
 
 dependencyManagement {
