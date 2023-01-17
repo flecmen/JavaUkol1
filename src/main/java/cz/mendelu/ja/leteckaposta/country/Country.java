@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Collection;
 
 @Data
-class Country {
+public class Country {
 
     private final String cca3;
     private Collection<Country> borders;
